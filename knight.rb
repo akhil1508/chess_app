@@ -1,8 +1,8 @@
 class Knight
-  attr_accessor  :piece_name
+  attr_accessor  :piece_name # Defines the piece's name
 
   def initialize
-    @piece_name = 'knight'
+    @piece_name = 'knight' # piece name is set to knight
   end
 
 
@@ -12,6 +12,7 @@ class Knight
     return false if current_position[0]+destination[0] > 14 || current_position[1]+destination[1] > 14
     return false if destination.any? {|i| i < 0}
 =end
+    # validation rules for knight moves
     if (current_position[0] - destination[0]).abs == 2
       if (current_position[1] - destination[1]).abs == 1
         return true
