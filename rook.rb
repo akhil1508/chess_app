@@ -1,3 +1,4 @@
+# Defines a Rook class and valid rules for the movement of a Rook
 class Rook
   attr_accessor  :piece_name
 
