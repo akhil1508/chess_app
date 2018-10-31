@@ -4,6 +4,7 @@ require './queen'
 require './king'
 require './knight'
 require './pawn'
+# The main element
 
 class Block
     attr_accessor :coord, :color, :piece_status
