@@ -1,5 +1,5 @@
 require './block'
-
+# Initializes a new chess board
 class Board # Chess board
 attr_accessor :array
 def initialize
