@@ -3,6 +3,8 @@ require './check_move'
 board = Board.new
 board.create
 #board.display
+# To add more tests here
+
 begin puts "Input piece"
 piece = "rook"
 puts "Input start position"
